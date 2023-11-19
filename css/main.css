@@ -11,6 +11,7 @@
 }
 
 body {
+	background: linear-gradient(90deg, rgba(122,255,124,1) 0%, rgba(175,255,104,1) 100%);
 	overflow: hidden;
 	height: 100vh;
 	display: flex;
@@ -74,7 +75,8 @@ body {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: var(--color-dark);
+		/* background-color: var(--color-dark); */
+		background: linear-gradient(90deg, rgba(48,108,48,1) 0%, rgba(85,181,0,1) 100%);
 	}
 	.header {
 		filter: invert(100%);
